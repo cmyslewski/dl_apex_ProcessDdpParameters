@@ -1,0 +1,16 @@
+<apex:page controller="ProcessDdpsExt">
+    <style type="text/css">
+        .col1 { width: 20%; }
+        .colDdp .component-process-ddp { margin-left: 70px; }
+    </style>
+    <apex:messages />
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!Infos}" var="a">
+            <apex:column value="{!a.Account.Name}" headerValue="Account Name" headerClass="col1" styleClass="col1"/>
+            <apex:column styleClass="colDdp">
+                <apex:facet name="header">DDP</apex:facet>
+                <Loop:processDDP parameters="{!a.Parameters}" />
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
