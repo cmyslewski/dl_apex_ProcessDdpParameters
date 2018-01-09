@@ -22,7 +22,7 @@ The sample includes the following files:
 
     The Visual force page displays an Apex page block table component \(`apex:pageBlockTable`\), with a row for each Salesforce account, that contains two columns:
 
-    Row | Description
+    Column | Description
     --- | ---
     Account Name | The name of the Salesforce account. The value in this column is provided by the AccountInfo instance for that row, provided to the Visualforce page by the ProcessDdpsExt class.
     DDP | The Process DocGen Package component that displays the status of the DocGen Package being processed for the Salesforce account. The Process DocGen Package component is configured using the ProcessDdpParameters instance for that row, also provided to the Visualforce page by the ProcessDdpsExt class.
