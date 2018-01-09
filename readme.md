@@ -47,7 +47,7 @@ You need to first implement the ProcessDdpsExt and AccountInfo Apex classes in S
 To implement the sample
 
 1. Log into your Salesforce instance, using a Developer Edition account, and ensure that Visualforce development mode is enabled.
-1. From your Salesforce instance, open the Developer Console. 
+1. From your Salesforce instance, open the Developer Console.
 
     For more information about the Developer Console in Salesforce, see [Developer Console](https://developer.salesforce.com/page/Developer_Console).
 1. From the Developer Console, create a new Apex class named ProcessDdpsExt.
@@ -68,7 +68,7 @@ Using the sample
 
 To use the sample, replace the variables in  the following URL and reload the page:
 
-```https://_Salesforce_instance_/apex/ProcessDdps?ids=_Account_IDs_&ddpId=_DdP_Id_&deliveryOptionId=_DeliveryOption_Id_```
+<https://Salesforce_instance/apex/ProcessDdps?ids=Account_IDs&ddpId=DdP_Id&deliveryOptionId=DeliveryOption_Id>
 
 * _Salesforce_instance_ with the URL for your Salesforce instance.
 * _AccountIds_ with a comma-delimited list of Salesforce account Ids.
