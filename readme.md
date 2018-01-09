@@ -79,8 +79,6 @@ To use the sample
   * _DDP_Id_ with the Id of the DocGen Package to process.
   * _DeliveryOption_Id_ with the Id of the Delivery Option to use for the DocGen Package.
 
-
-
 For more information
 
 [Nintex Document Generation for Salesforce product assistance](https://help.nintex.com/en-US/docgen/docgen-portal.htm)
