@@ -10,7 +10,7 @@ The sample includes the following files:
 
 * ProcessDdps.html
 
-    A Visualforce page that implements the Process DocGen Package \(```<loop:processddp>```\) component and uses the ProcessDdpsExt class, included with the sample, to process DocGen Packages for Salesforce accounts. The page uses the Process DocGen Package component to display progress and information about each DocGen Package processed.
+    A Visualforce page that implements the Process DocGen Package \(`loop:processddp`\) component and uses the ProcessDdpsExt class, included with the sample, to process DocGen Packages for Salesforce accounts. The page uses the Process DocGen Package component to display progress and information about each DocGen Package processed.
 
     Three query string parameters are used to pass information from the Visualforce page to the ProcessDdpsExt class:
 
@@ -20,7 +20,7 @@ The sample includes the following files:
     ddpId | The ID of the DocGen Package to be run on the Salesforce accounts specified in ids.
     deliveryOptionId | The ID of the Delivery Option to be used for the DocGen Package specified in ddpId.
 
-    The Visual force page displays an Apex page block table component \(```apex:pageBlockTable```\), with a row for each Salesforce account, that contains two columns:
+    The Visual force page displays an Apex page block table component \(`apex:pageBlockTable`\), with a row for each Salesforce account, that contains two columns:
 
     Row | Description
     --- | ---
@@ -66,9 +66,14 @@ To implement the sample
 Using the sample
 ----------------
 
-To use the sample, reload the page using the following URL, replacing _Salesforce_instance_ with the URL for your Salesforce instance, _AccountIds_ with a comma-delimited list of Salesforce account IDs, _DDP_Id_ with the Id of the DocGen Package to be processed, and _DeliveryOption_Id_ with the ID of the Delivery Option to be used for the DocGen Package:
+To use the sample, replace the variables in  the following URL and reload the page:
 
-```https://_Salesforce_instance_/apex/ProcessDdps?ids=_Account_IDs_&ddpId=_DdP_Id_&deliveryOptionId=_DeliveryOption_ID_```
+* _Salesforce_instance_ with the URL for your Salesforce instance.
+* _AccountIds_ with a comma-delimited list of Salesforce account Ids.
+* _DDP_Id_ with the Id of the DocGen Package to process.
+* _DeliveryOption_Id_ with the Id of the Delivery Option to use for the DocGen Package.
+
+```https://_Salesforce_instance_/apex/ProcessDdps?ids=_Account_IDs_&ddpId=_DdP_Id_&deliveryOptionId=_DeliveryOption_Id_```
 
 When the Visualforce page loads, it will request a DocGen Package run for each Salesforce account, and the Process DocGen Package component for each Salesforce account displays the status of each DocGen Package run.
 
