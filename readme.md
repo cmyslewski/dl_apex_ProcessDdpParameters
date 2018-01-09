@@ -84,7 +84,3 @@ For more information
 [Nintex Document Generation for Salesforce product assistance](https://help.nintex.com/en-US/docgen/docgen-portal.htm)
 
 [Apex for Nintex DocGen for Salesforce](https://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9032)
-
-[](../T_ExternalData.htm)[ExternalData class](http://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9057)
-
-[](../I_IApexDataSource.htm)[IApexDataSource interface](https://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9058)
