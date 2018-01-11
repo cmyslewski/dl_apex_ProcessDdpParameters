@@ -81,6 +81,6 @@ To use the sample
 
 For more information
 
-[Nintex Document Generation for Salesforce product assistance](https://help.nintex.com/en-US/docgen/docgen-portal.htm)
-
-[Apex for Nintex DocGen for Salesforce](https://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9032)
+* [Nintex Document Generation for Salesforce product assistance](https://help.nintex.com/en-US/docgen/docgen-portal.htm)
+* [Apex for Nintex DocGen for Salesforce](https://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9032)
+* [ProcessDdpParameters class](http://help.nintex.com/en-us/docgen/docservices/Default.htm#cshid=9080)
