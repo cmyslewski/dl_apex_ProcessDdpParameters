@@ -1,0 +1,20 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="iframeUrl" type="string" default="" access="private"/>
+
+    <lightning:layout horizontalAlign="space" >
+        <lightning:layoutItem flexibility="auto" padding="around-small">
+            <lightning:card title="Generate Document">
+                <div class="slds-m-around--medium">
+                    <ui:inputText aura:id="documentPackageId" label="Document Package ID" value="a034100000b2yuK" class="slds-m-bottom--small"/>
+                    <ui:inputText aura:id="deliveryOptionId" label="Delivery Option ID" value="a014100000AdjCV" class="slds-m-bottom--small"/>
+                    <ui:inputText aura:id="recordIds" label="Record IDs" value="00641000002g2wV" class="slds-m-bottom--small"/>
+                    <ui:inputText aura:id="sObjectType" label="Record Type" value="Opportunity" class="slds-m-bottom--small"/>
+                    <ui:button class="slds-button slds-button-brand slds-m-bottom--large" label="Generate Document" press="{!c.generateDocument}"/>
+                </div>
+                <div style="display:block;">
+                    <iframe aura:id="iframe" src="{!v.iframeUrl}" width="650" height="75" style="border:0"/>
+                </div>
+            </lightning:card>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
