@@ -93,8 +93,8 @@ To use the sample
 
 1. In the Lightning Component sample, enter values for each field, overwriting existing values:
 
-   Field | Description 
-   --- | --- 
+   Field | Description
+   --- | ---
     **Document Package ID** | Specify the Id of the DocGen Package to process.
       **Delivery Option ID** | Specify the Id of the Delivery Option to use for the DocGen Package.
    **Record IDs** |  Specify the Salesforce record Ids.

@@ -1,6 +1,6 @@
 # ProcessDdps Samples
 
-The following sample collections demonstrates how to provide a user experiance for generating documents.
+The following sample collections demonstrates how to provide a user experience for generating documents.
 
 ## Samples
 
