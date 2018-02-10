@@ -7,7 +7,7 @@ The following sample collections demonstrates how to provide a user experiance f
 Sample | Description
 --- | ---
 ProcessDdps | Provides a custom UI and corresponding Apex class  to process DocGen Packages for Salesforce accounts.
-ProcessDdp Lightning Compoent | Provides a Lightning Component and corresponding Apex class to process DocGen Packages for Salesforce accounts.
+ProcessDdp Lightning Component | Provides a Lightning Component and corresponding Apex class to process DocGen Packages for Salesforce accounts.
 
 For more information:
 
